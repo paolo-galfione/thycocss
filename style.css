@@ -1,0 +1,83 @@
+/* ==========================================================================
+   TYCHO CSS - Reset
+   ========================================================================== */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset body */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Reset lists */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset links */
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Reset buttons */
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+}
+
+/* Reset form elements */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reset images and media */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Reset blockquote */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+/* Reset table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove text decoration from abbr */
+abbr[title] {
+    text-decoration: none;
+}
