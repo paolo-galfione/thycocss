@@ -21,6 +21,23 @@ Sviluppare un framework CSS minimale e semantico che formatta elementi HTML stan
 3. **NON ANTICIPARE** lavori futuri
 4. **SPIEGA BREVEMENTE** cosa stai per fare prima di farlo
 
+## Linee Guida per i Commit
+
+**Formato commit**:
+- Titolo sintetico e descrittivo
+- Massimo 2-3 punti elenco essenziali
+- **NON** includere riferimenti a Claude Code
+- **NON** includere footer con Co-Authored-By o link
+
+**Esempio**:
+```
+Ridotto contenuto blog e aggiunti form/tabella commenti
+
+- Ridotto lunghezza articolo mantenendo tutti i tag HTML h1-h6
+- Aggiunto form commenti con email e textarea
+- Aggiunta tabella commenti utenti
+```
+
 ## Obiettivi del Framework CSS
 
 1. Foglio di stile semantico minimale per elementi HTML standard
